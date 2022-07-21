@@ -1,0 +1,258 @@
+/* common start */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'PlayFair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+
+}
+/* common start */
+/* header start */
+header{
+    padding: 25px 0;
+    /* border: 1px solid red; */
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+.logo{
+    margin-top: 12px;
+    float: left;
+    width:12%;
+    /* border: 1px solid red; */
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    float: right;
+    width: 65%;
+    /* border: 1px solid red */
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    margin: 0 50px;
+    display: inline-block;
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+.menu ul li :last-child a{
+    padding-right: 0;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid black;
+}
+/* header end */
+/* banner start */
+
+.b_img img{
+    width: 100%;
+}
+/* banner end */
+/* perfect start */
+.perfect{
+    padding: 100px 0 60px;
+}
+.container2{
+    margin: 0 auto;
+    width: 80%;
+    /* border: 1px solid red; */
+}
+
+.c_light{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.c_title{
+    margin: 20px 0 10px;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+.c_text{
+    margin: 0;
+    line-height: 26px;
+}
+.mb_45{
+    margin-bottom: 40px;
+}
+/* perfect end */
+/* blog started */
+.blog{
+    margin: 5rem 0 ;
+    padding: 20px 0 60px;
+}
+.b_content{
+    overflow: hidden;
+}
+.b_single{
+    margin-top: 80px;
+    float: left;
+    width: 46.5%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.b_single:nth-child(even){
+    margin-left: 6.63%;
+    width: 46.5%;
+}
+.s_img{
+    margin-bottom: 25px;
+}
+.s_img img{
+    width: 100%;
+    height: 281px;
+}
+/* blog ended */
+/* news start */
+.news{
+    background-color: #f0f0f0;
+    margin-top: 5rem;
+    padding: 70px 0;
+}
+.signup{
+    text-align: center;
+}
+.s_h1{
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+.s_form{
+    position: relative;
+    width: 400px;
+    /* border: 5px solid red; */
+    margin: 0 auto;
+}
+.s_form input{
+    font-family: 'PlayFair Display',serif;
+    font-size: 14px;
+    color: #626262;
+    width: 345px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    padding-left: 5px;
+    padding-right: 45px;
+}
+.s_form input:focus{
+    outline: 0;
+}
+.s_form button {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    top: 15px;
+    right: 0;
+}
+.s_form button:focus{
+    outline: 0;
+}
+.s_form button img{
+    width: 100%;
+}
+/* news end */
+/*  */
+/*  */
+
+/* load start */
+.load{
+    padding-top: 7rem;
+    padding-bottom: 13rem;
+}
+.container3{
+    text-align: center;
+}
+.container3 button{
+    font-family: 'PlayFair Display', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #626262;
+    background: none;
+    border: none;
+    border: 1px solid #626262;
+    cursor: pointer;
+    width: 160px;
+    height: 50px;
+    transition: .3s;
+}
+.container3 button:focus{
+    outline: 0;
+}
+
+.container3 button:hover{
+    background-color: #626262;
+    color: white;
+}
+/* load ended */
+
+/* footer start */
+footer{
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+.footer{
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    width: 90%;
+    height: 100%;
+    line-height: 0.5rem;
+    /* border: 1px solid red; */
+    padding: 30px 0;
+}
+.left{
+    float: left;
+    /* border: 1px solid red; */
+}
+.right{
+    float: right;
+    width: 15%;
+    /* border: 1px solid blue; */
+}
+.right p{
+    float: left;
+    /* border: 1px solid aqua; */
+}
+.icons{
+    position: relative;
+}
+.icons button{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    top: 12px;
+    /* right: 0; */
+}
+.icons button:focus{
+    outline: 0;
+}
+.f{
+    left: 30%;
+}
+.t{
+    left: 40%;
+}
+.i{
+    left: 55%;
+}
+/* footer end */
